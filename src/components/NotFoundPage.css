@@ -1,0 +1,23 @@
+.nfp-container {
+    padding-top: 40px;
+    background-color:#fff;   
+}
+
+.wrapper {
+    margin-top: 50px;
+}
+
+.not-found {
+    float: right;
+    margin: 80px 350px 0 60px;   
+}
+.nfp-container img {
+    margin-left: 60px;
+}
+.err {
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0 0 24px;
+    text-align: center;
+}

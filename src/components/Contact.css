@@ -1,0 +1,80 @@
+
+.contact-container {
+    padding-top: 2%;
+    font-family: 'Open Sans';
+    background-color:#606060;  
+    height: 780px;
+    width: 100%;
+}
+
+.contact {
+    width: 70%;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    background: white;
+    margin-left: 20%;  
+    box-shadow: 0 0 8em -1em black; 
+}
+
+form {
+    padding: 40px;
+    width: 100%;
+}
+
+.form-group {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-start ;
+    flex-direction: column ;
+    padding-right: 40px;      
+}
+
+label{
+    font-size: 1rem;
+    color: #302f2f;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+input[type='text'], [type='email'], textarea {
+    background: rgba(255, 255, 255, .2);
+    border: none;
+    font-size: 1rem; 
+    font-weight: 300; 
+    cursor: pointer;
+    border-bottom: 1px solid #606060; 
+    margin-bottom: 1rem ;
+    outline:none;
+   
+}
+.btn {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    font-size: 1rem; 
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+ .col-2 {
+    flex: 0 0 100%;
+    margin-left: 55px;
+} 
+&:nth-child(2){
+    padding-right: 0;
+}
+
+@media screen and (max-width: 772px) {
+    form {
+      padding: 20px;
+    }
+    .col-2 {
+        margin-left: 10px;
+    }
+    .form-group {
+        padding-right: 10px;
+    }
+
+  }

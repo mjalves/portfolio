@@ -1,0 +1,32 @@
+.about-container {
+    display: flex;
+    height: 689px;
+    background-color: white;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 40px;
+    
+    
+}
+
+.my-photo {
+    margin: 60px 30px 20px 80px;
+}
+.bio {
+    margin: 60px 110px 0 60px;
+}
+img {
+    float: left;
+}
+
+.list {
+    float: left;
+    margin: 0 10px 0 60px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+ul {
+    list-style-type: none;
+}
